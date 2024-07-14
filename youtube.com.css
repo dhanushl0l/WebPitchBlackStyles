@@ -1,0 +1,36 @@
+html[dark], [dark]{
+    --yt-spec-base-background : black;
+  }
+  
+  ytd-multi-page-menu-renderer {
+      background: #282828ad;
+  }
+  
+  ytd-simple-menu-header-renderer {
+      background-color:#282828ad;
+  }
+  
+  #background.ytd-masthead{
+          background: #000000bd;
+  }
+  
+  #chips-wrapper.ytd-feed-filter-chip-bar-renderer{
+          background: #000000bd;
+  }
+  
+  ytd-feed-filter-chip-bar-renderer[is-dark-theme] #right-arrow.ytd-feed-filter-chip-bar-renderer:before {
+      background: linear-gradient(to left, transparent 20%, rgba(33, 33, 33, 0) 80%);
+  }
+  
+  ytd-feed-filter-chip-bar-renderer[is-dark-theme] #left-arrow.ytd-feed-filter-chip-bar-renderer:after {
+      background: linear-gradient(to right, transparent 20%, rgba(33, 33, 33, 0) 80%);
+  }
+  
+  
+  #left-arrow-button.ytd-feed-filter-chip-bar-renderer, #right-arrow-button.ytd-feed-filter-chip-bar-renderer {
+      background: linear-gradient(to left, #00000063 50%, rgba(33, 33, 33, 0) 80%);
+      width: 100%;
+      height: 100%;
+      border-radius: 10%;
+  }
+  
